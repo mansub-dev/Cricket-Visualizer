@@ -1,0 +1,113 @@
+body {
+  background-color: green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 20;
+}
+
+.bat-figure {
+  width: 200px;
+  height: 300px;
+  position: relative;
+  top: -20%;
+  left: 3%;
+  transform: rotate(-47deg);
+
+}
+
+.bat-figure div {
+  position: absolute;
+  background-color: #eee;
+
+}
+
+
+.head {
+  top: 1px;
+  left: 71px;
+  width: 10px;
+  height: 45%;
+}
+
+
+.bodys {
+  top: 25%;
+  left: 57px;
+  width: 40px;
+  height: 45%;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+
+
+.stick div {
+  position: absolute;
+  justify-content: center;
+  background-color: #333;
+  height: 15%;
+  width: 10px;
+  top: 20%;
+  z-index: -1;
+}
+
+
+.wicket1 {
+  left: 49%;
+}
+
+.wicket2 {
+  left: 47%;
+}
+
+.wicket3 {
+  left: 45%;
+}
+
+.bail div {
+  position: absolute;
+  background-color: #333;
+  height: 1%;
+  z-index: -1;
+}
+
+
+.bail1 {
+  top: 20%;
+  left: 47%;
+  width: 41.5px;
+}
+
+
+.bail2 {
+  top: 20%;
+  left: 45%;
+  width: 37px;
+}
+
+
+
+
+.ground {
+  position: absolute;
+  top: 8%;
+  left: 25%;
+  width: 700px;
+  height: 700px;
+  background-color: green;
+  border: 5px white solid;
+  border-radius: 50%;
+  z-index: -2;
+}
+
+.pitch {
+  position: absolute;
+  top: 30%;
+  left: 44%;
+  z-index: -1;
+  width: 100px;
+  height: 45%;
+  background-color: wheat;
+}
